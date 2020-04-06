@@ -1,0 +1,57 @@
+body
+{
+background-color:#FAFAFA ;
+}
+a
+{
+color:black;
+text-decoration:none; 
+}
+
+header {
+  text-align: center;
+}
+
+.messages {
+  background-color:#F9C4C4;
+  border-radius: 5px;
+  padding: 1em;
+  height: 50vh;
+  overflow: auto;
+}
+
+.message {
+  color: black;
+  padding: 0.4em;
+}
+
+
+
+form {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+
+input, button {
+  padding: 0.6em;
+}
+
+input {
+  margin-right: 10px;
+}
+
+#auteur {
+  width: 20%;
+}
+
+#contenu {
+  width: 60%;
+}
+
+button[type="submit"]{
+  width: 20%;
+}
+.titre{
+	color:red;
+}
